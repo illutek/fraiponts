@@ -173,12 +173,15 @@
     </div></div> <!-- /.section, /#messages -->
   <?php endif; ?>
 
-  <div class="news">
+  <!-- News items not Drupal block -->
+  <!-- 
+    <div class="news">
     <img src="<?php print $images_path; ?>/news-img/Flanders.png" alt="Logo Flanders">
     <a href="https://www.databadge.net/estc2020/reg/esf/?link=3ab2f93e56586eb01726&lan=NL" target="_blank">
       <img class="news__img" src="<?php print $images_path; ?>/news-img/maak-industrie.jpg" alt="Maak industrie banner">
     </a>
-  </div>
+  </div> 
+  -->
 
   <?php if ($page['featured']): ?>
     <div id="featured"><div class="section clearfix">
